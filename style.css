@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(240, 240, 240);
+    color: rgb(25, 25, 25);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 0.95;
+    font-weight: 500;
+}
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+.card-white {
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(10 10 10 / 20%);
+    border-radius: 8px; 
+    margin: 20px 0px;
+    text-align: center;   
+}
+.img-circle {
+    border-radius: 50%;
+}
+.btn-purple {
+    background-color: #4C2A85;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.btn-purple:hover {
+    background: green;
+    color: white;
+}
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+font-size: 50px;
+color: rgb(200, 200, 200);
+}
+.list-inline i:hover {
+color: black;
+}
+#introduction p {
+margin-bottom: 35px;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: #5f1472;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4C2A85;
+}
+
+a {
+    text-decoration: none;
+    color: #4C2A85;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
